@@ -7,7 +7,7 @@ const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.f4i.cn';
 const NEZHA_PORT = process.env.NEZHA_PORT || '5555';                     // 哪吒端口为{443,8443,2096,2087,2083,2053}其中之一开启tls
 const NEZHA_KEY = process.env.NEZHA_KEY || '5ddVS93Eq0Uc9he880';
 const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'choreo-2.tftyu.us.kg';     // 建议使用token，argo端口8080，cf后台设置需对应,使用json需上传json和yml文件至files目录
-const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiYzEyYWI5MzA1ZGYzMThmNzUzZWU2Y2NkODk2MjJmMGEiLCJ0IjoiZDMwMmY5ZWEtNzQwYi00MTkwLWI1NzYtMGNiNDJlY2RiYmZhIiwicyI6Ik9XVTNZemRrTlRndE4yTXpZeTAwWXpSa0xUZ3hZemt0TURsbE9XVXpNekptTnpZMCJ9';
+const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiYWZlNmQ0MDNmZjlhYzIwZTRmMjlkYWMxMmFiNjY3Y2YiLCJ0IjoiMzBjMTY0MzgtYmMxMy00NzRhLTlkNmItOGQ5MzVkNTkxYmE0IiwicyI6Ik1URm1aRFF4Tm1FdE1HVTVZaTAwTnpCaExUazFOVFl0Wm1RMll6VmlZbUZoT1dFdyJ9';
 const CFIP = process.env.CFIP || 'na.ma';
 const NAME = process.env.NAME || 'Choreo';
 
